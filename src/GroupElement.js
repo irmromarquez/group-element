@@ -1,8 +1,8 @@
 import { LitElement, html, } from 'lit-element';
 import { getComponentSharedStyles } from '@bbva-web-components/bbva-core-lit-helpers';
 import styles from './GroupElement-styles.js';
-import "../components/button-element";
-import "../components/input-element";
+import 'input-element/input-element';
+import 'button-element/button-element';
 
 import bootstrap from "./styles/bootstrap";
 /**
@@ -43,6 +43,8 @@ export class GroupElement extends LitElement {
 
 constructor() {
     super();
+    this.groupValues = [];
+    this.inputValue = '';
 }
 
 getButtonElements() {

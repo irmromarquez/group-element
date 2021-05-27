@@ -14,8 +14,8 @@
     "@bbva-web-components/bbva-foundations-styles": "^2.3.5",
     "@bbva-web-components/bbva-core-lit-helpers": "^1.0.4",
     "lit-element": "^2.0.0",
-    "input-element": "https://github.com/irmromarquez/input-element.git#master",
-    "button-element": "https://github.com/irmromarquez/button-element.git#master"
+    "input-element": "https://github.com/irmromarquez/input-element.git#develop",
+    "button-element": "https://github.com/irmromarquez/button-element.git#develop"
   },
   "devDependencies": {
     "@cells/cells-component-core": "^3.0.0"
